@@ -1,0 +1,10 @@
+<html>
+<body>
+username:<input type="text" name="username"><br>
+password:<input type="password" password="password"><br>
+<form action="page.html">
+<button type="submit">OK
+</button>
+</form>
+</body>
+</html>
