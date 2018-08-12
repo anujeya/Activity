@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+body
+{
+border:5px solid black;
+}
+</style>
+<body>
+<form>
+<div><h3><center>Bio-Data</center></h3>
+<br>Name : <input type="text" name="name"></br>
+<br></br>
+<br>DOB : <input type ="date" name="bday"></br>
+<br></br>
+Photo :
+<br></br>
+<br>language known : <input type="language known" name="language"></br>
+<br></br>
+<br>Gender : <input type="radio" name="gender">Female  <input type="radio" name="gender">Male  <input type="radio" name="gender">Transgender</br>
+<br></br>
+<br>intrested : <input type= "checkbox" name="hobby">Photography <input type= "checkbox" name="hobby">Gardening <input type= "checkbox" name="hobby">Writing </br>
+<br></br>
+</form>
+<input type="button" onclick="myfunction()">pdf download</button>
+<script>
+function myfunction()
+{
+window.print();
+}
+</script>
+</form>
+</body>
+</html>
